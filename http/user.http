@@ -1,0 +1,13 @@
+GET {{url}}/user/2
+
+###
+POST {{url}}/user
+Content-Type: application/json
+
+{
+  "firstName": "James",
+  "lastName": "Cameron",
+  "username": "jcameron",
+  "email": "jcameron@example.com",
+  "password": "oijajsdioijasdf"
+}
