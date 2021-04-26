@@ -1,13 +1,13 @@
-GET {{url}}/user/2
+GET {{url}}/user/3
 
 ###
 POST {{url}}/user
 Content-Type: application/json
 
 {
-  "firstName": "James",
-  "lastName": "Cameron",
-  "username": "jcameron",
-  "email": "jcameron@example.com",
-  "password": "oijajsdioijasdf"
+  "firstName": "Alice",
+  "lastName": "Sfasdf",
+  "username": "alsicv1",
+  "email": "aliceasdfasf@example.com",
+  "password": "password123"
 }

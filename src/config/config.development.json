@@ -1,0 +1,9 @@
+{
+  "database": {
+    "filePath": "../../../../../../mnt/d/Projects/database.sqlite"
+  },
+  "server": {
+    "port": 4000,
+    "routePrefix": "/api"
+  }
+}

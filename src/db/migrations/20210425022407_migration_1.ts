@@ -8,7 +8,7 @@ export async function up(knex: Knex): Promise<void> {
 			table.string('firstName').nullable();
 			table.string('lastName').notNullable();
 			table.string('username').notNullable();
-			table.string('email').notNullable();
+			table.string('email').notNullable().unique().index();
 			table.string('password').notNullable();
 		})
 		.createTable('post', (table) => {

@@ -1,6 +1,6 @@
 import { Knex } from 'knex';
-import { IUser } from '../../components/user/UserModel';
-import { IPost } from '../../components/post/PostModel';
+import { IPost } from '../../api/post/PostModel';
+import { IUser } from '../../api/user/UserTypes';
 
 export async function seed(knex: Knex): Promise<void> {
 	// truncate
